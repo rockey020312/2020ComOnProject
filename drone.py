@@ -1,6 +1,7 @@
 from time import sleep
 import tellopy
 
+
 def handler(event, sender, data, **args):
     drone = sender
     if event is drone.EVENT_FLIGHT_DATA:
